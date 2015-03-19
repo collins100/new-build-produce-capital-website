@@ -281,3 +281,8 @@ footer p {
 	padding-right: 15px;
 }
 */
+.service{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
