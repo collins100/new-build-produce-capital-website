@@ -211,7 +211,7 @@ Footer
 footer {
 	background-color:#5FBEDB;
 	vertical-align: middle;
-	height: 65px;
+	height: 55px;
 	border-bottom: 0;
 	text-align: center;
 }
@@ -219,6 +219,7 @@ footer {
 .links {
 	float: right;
 	vertical-align: middle;
+	position: relative;
 	
 }
 
@@ -281,8 +282,23 @@ footer p {
 	padding-right: 15px;
 }
 */
+
+/*-------------------------------------------------------
+THETEAM.HTML
+----------------------------------------------------------*/
+.team{
+	font-size: 14px;	
+}
+/*--------------------------------------------------------
+COMPANY.HTML
+---------------------------------------------------------*/
+
+
+
+
 .service{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
+
