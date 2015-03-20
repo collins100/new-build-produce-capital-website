@@ -147,6 +147,9 @@ Carousel
 	background-color#D1E6EB; 
 }
 
+/*.carousel-fade .item {-webkit-transition: opacity 3s; -moz-transition: opacity 3s; -ms-transition: opacity 3s; -o-transition: opacity 3s; transition: opacity 3s;}
+.carousel-fade .active.left {left:0;opacity:0;z-index:2;}
+.carousel-fade .next {left:0;opacity:1;z-index:1;}*/
 /*--------------------------------------------------------------
 Jumbotron
 ---------------------------------------------------------------*/
@@ -292,8 +295,12 @@ THETEAM.HTML
 /*--------------------------------------------------------
 COMPANY.HTML
 ---------------------------------------------------------*/
-
-
+.aboutimg {
+	margin: 10px;
+	padding: 10px;
+	float: left;
+	text-align: center;
+}
 
 
 .service{
@@ -302,3 +309,21 @@ COMPANY.HTML
 	margin-right: auto;
 }
 
+#about {
+	margin-top: 20px;
+	text-align: justify;	
+}
+
+.desc {
+	color:#2891B5;
+}
+
+/*------------------------------------------------------------
+SERVICE.HTML
+--------------------------------------------------------------*/
+.serviceimg {
+	margin: 5px;
+	padding: 5px;
+	
+	
+}
