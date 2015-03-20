@@ -54,9 +54,9 @@ nav a:hover {
 	color: #185166;
 }
 	
-nav a:visited {
+/*nav a:visited {
 	color: #185166;
-}
+}*/
 
 nav li {
 	display: inline-block;
@@ -153,6 +153,10 @@ Carousel
 /*--------------------------------------------------------------
 Jumbotron
 ---------------------------------------------------------------*/
+.jumbotron {
+	margin-top: 20px;
+}
+
 .jumbotron h3 {
 	font-size: 24px; 
 	text-align: center;
@@ -173,6 +177,7 @@ Main Section
 .main_section {
 	-moz-column-fill: autp; /* Firefox */
 	column-fill: auto;
+	margin-top: 20px;
 }
 
 .main_section h3 {
