@@ -18,8 +18,19 @@
   </header>
 </div>    <!--         end of the container        -->
 
+<!--
+<nav id="fixedbar">
+    <ul id="fixednav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="Company.html">Company</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="TheTeam.html">The Team</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+</nav>
+-->
 
-<nav id = "fixedbar">
+<nav>
   <div class="container">
     <ul class="pull-left">
       <li class="active"><a href="index.html">Home</a></li>
@@ -132,6 +143,26 @@
   </div>      <!--      end of container div         --> 
   
 </footer>
+
+<!--<script type="text/javascript">
+$(document).ready(function(){
+  $('#navigation a, #fixedbar a').on('click', function(e) {
+    e.preventDefault();
+  });
+   
+  $(window).on('scroll',function() {
+    var scrolltop = $(this).scrollTop();
  
+    if(scrolltop >= 215) {
+      $('#fixedbar').fadeIn(250);
+    }
+     
+    else if(scrolltop <= 210) {
+      $('#fixedbar').fadeOut(250);
+    }
+  });
+});
+</script>-->
+
 </body>  
 </html>
