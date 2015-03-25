@@ -58,9 +58,9 @@ nav a:hover {
 	color: #185166;
 }
 	
-/*nav a:visited {
-	color: #185166;
-}*/
+/nav a:visited {
+	color:#185166;
+}
 
 nav li {
 	display: inline-block;
@@ -417,4 +417,35 @@ SERVICE.HTML
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding-top: 15px;
+}
+
+/*------------------------------------------------------
+Contact.html
+-------------------------------------------------------*/
+#contactPic{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#connectUs{
+	border-left:ridge;
+	border-spacing: 15px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+.sectionTitle{
+	color: #5FBEDB;
+}
+
+#contactNumber{
+	border-top: inset;
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+
+#contactEmail{
+	border-top:inset;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }

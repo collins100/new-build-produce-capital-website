@@ -36,48 +36,67 @@
       <li><a href="TheTeam.html">The Team</a></li>
       <li><a href="Contact.html">Contact</a></li>
     </ul>
-  </div>
-  <!--         end of the container div      ---> 
+  </div>                         <!--         end of the container div      ---> 
 </nav>
+
+<div id="contactPic">
+    <div class="container">
+        <img src="Images/Contactpic.png" class="img-responsive" width="940px" height="300">
+    </div>      <!--      end of the container div     -->
+</div>          <!--      end of the contactPic div    -->
 
 <div class= "container">
     <div class= "rows">
       <div class = "col-md-4">
-        <div class = "sectionTitle"> <strong>Location</strong></div>
+        
+        <h5 class = "sectionTitle"> <strong>Location</strong></h5>
         <p><span class="glyphicon glyphicon-home"> Address</span>
-        <p style="padding-top:12px; color:999;">40 WALL STREET, 28TH FLOOR, NEW YORK, NY 10005</p>
-        <p style="color:#999; padding-top:12px; border-top:1px dashed #999;">747 THIRD AVE, 2ND FLOOR, NEW YORK, NY 10017</p>
-        <p><span class ="glyphicon glyphicon-earphone"> </span> Contact Us</p>
-        <p> <span class ="glyphicon glyphicon-envelope"> </span> Email</p>
-        <p> <span class ="glyphicon glyphicon-envelope"> </span>Info@Produce.com</p>
+        <p style="padding-top:12px; color:#999999;">40 WALL STREET, 28TH FLOOR, NEW YORK, NY 10005</p>
+        <p style="color:#999999; padding-top:12px; border-top:1px dashed #999;">747 THIRD AVE, 2ND FLOOR, NEW YORK, NY 10017</p>
+        <p id="contactNumber"><span class ="glyphicon glyphicon-earphone"> </span>  Contact Us</p>
+        <p style="color:#999999">TEL:&nbsp+1-646-480-0093 </p>
+        <p id="contactEmail"><span class ="glyphicon glyphicon-envelope"> </span>  Email</p>
+        <p style="color:#999999"> <span class ="glyphicon glyphicon-envelope"> </span>  Info@Produce.com</p>
       </div>
-      <div class= "col-md-8">
-        <div class = "sectionTitle"> <strong>Connect With Us</strong></div>
-          <form>
+      
+     <div class= "col-md-8">
+        <div id="connectUs">
+          <h5 class = "sectionTitle"><strong>Connect With Us</strong></h5>
+          <form id="contactForm">
           Name: <br>
           <input type="text"><br>
           Email: <br>
           <input type="text"><br>
           Subject: <br>
-          <input type="text"><br>
+          <input type="text"><br><br>
           Message: <br>
-          <textarea rows="4" cols="50" name="message">Enter text here...</textarea><br>
+          <textarea rows="4" cols="50" name="message" Placeholder="Enter text here..."></textarea><br>
           <input type="submit">
-          </form>   
-      </div>  
-    </div>
-</div>
+          </form> 
+        </div>   <!--        end of the connectUs div   -->  
+      </div>     <!--       end of the col-md-8 div    -->
+    </div>       <!--       end of rows div           -->
+</div>           <!--      end of the container div    -->
+
+<br>
+
 <div class = "container">
     <div class="sectionTitle"> How to Find Us</div>
     <p style="color:#999;">40 WALL STREET, 28TH FLOOR, NEW YORK, NY 10005</p>
     <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d96772.02933105853!2d-74.06873094999999!3d40.7152445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s++++Home++Company++++Services++The+Team++Contact++++++Location++Address+++40+WALL+STREET%2C+28TH+FLOOR%2C+NEW+YORK%2C+NY+10005++747+THIRD+AVE%2C+2ND+FLOOR%2C+NEW+YORK%2C+NY+10017++Contact+Us++Email++Info%40Produce.com++++Connect+With+Us++Name%3A+++Email%3A+++Subject%3A+++Message%3A++Enter+text+here...+++++++++How+to+Find+Us++40+WALL+STREET%2C+28TH+FLOOR%2C+NEW+YORK%2C+NY+10005!5e0!3m2!1sen!2sus!4v1426690232405" width="600" height="450" frameborder="0" style="border:0"></iframe>
+    
+    <br>
+       
     <p style="color:#999;">747 THIRD AVE, 2ND FLOOR, NEW YORK, NY 10017</p>
+
+   <div class="maps">  
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3937051228036!2d-73.97200429999998!3d40.75336470000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25902a7ea3629%3A0x73dd98d8691d7eeb!2s747+3rd+Ave%2C+New+York%2C+NY+10017!5e0!3m2!1sen!2sus!4v1426690382363" width="600" height="450" frameborder="0" style="border:0"></iframe>
-</div>
+  </div>           <!--          end of maps div           -->
+</div>             <!--        end of container div     -->
   
 <footer>
   <div class="container"> 
-  Copyright &copy; 2015 Produce Capital. All rights reserved.
+  <span class="footer-text">Copyright &copy; 2015 Produce Capital. All rights reserved.</span>
     <div class="links"> 
    <a class="twitter" href="https://www.facebook.com/ProduceCapital" target="_blank"> <img src="Images/00facebook.png" > </a>
    <a class="twitter" href="http://www.linkedin.com/company/produce-capital-corp-" target="_blank"> <img src="Images/00linkedin.png"> </a> 
@@ -85,9 +104,12 @@
      </div>   <!--      end of links div             --> 
     
   </div>      <!--      end of container div         --> 
+  <br>
+  
 </footer>
 
 <script src="includes/js/feedek.js"></script>
 <script src="includes/js/default.js"></script>
+<script type="text/javascript" src="app.js"></script>
 </body>
 </html>
