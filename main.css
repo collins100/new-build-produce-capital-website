@@ -38,6 +38,9 @@ Navbar
 --------------------------------------------------------------*/
 nav{
 	background-color: #5FBEDB;
+	-webkit-box-shadow: 0px 0px 8px 0px #6D91A3;
+	-moz-box-shadow: 0px 0px 8px 0px #6D91A3;
+	box-shadow: 0px 0px 8px 0px #6D91A3;
 	
 }
 
@@ -175,19 +178,18 @@ p. jumbotron {
 /*--------------------------------------------------------------
 Main Section
 --------------------------------------------------------------*/
-.main_section {
-	-moz-column-fill: autp; /* Firefox */
-	column-fill: auto;
-	margin-top: 20px;
+#main_section {
+	
 }
 
-.main_section h3 {
+#main_section h3 {
 	text-align: center;
 	-webkit-column-span: all; /* Chrome, Safari, Opera */
 	column-span: all;	
+	flex: 1;
 }
 
-.main_section p {
+#main_section p {
 	text-align:justify;
 }
 
@@ -211,6 +213,17 @@ Main Section
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 
+.vacation {
+	-moz-transiiton: top 0.2s;
+	-o-transiition: top 0.2s;
+	-webkit-transition: top 0.2s;
+	transition: top 0.2s;
+}
+
+.highlight{
+	top:-10px;
+}
+
 p .thumbnail { 
     text-align: justify;
 }
@@ -225,16 +238,20 @@ footer {
 	text-align: center;
 }
 
+.footer-text{
+	position:relative;
+	top: 20px;
+}
+	
 .links {
 	float: right;
 	vertical-align: middle;
 	position: relative;
-	
+	padding-top: 10px;
+	right: 10px;
 }
 
-.links {
-	padding-top: 10px;
-}
+
 
 @media screen and (min-width: 768px) {
 .footer {
@@ -298,6 +315,22 @@ THETEAM.HTML
 .team{
 	font-size: 14px;	
 }
+
+#teamSect{
+	margin-top: 20px;
+}
+
+.item-team{
+	background-color: #5FBEDB;
+	padding:5px;
+}
+.teamMembers img{
+	padding-right: 20px;
+}
+
+.teamMembers p{
+	padding-top: 15px;
+}
 /*--------------------------------------------------------
 COMPANY.HTML
 ---------------------------------------------------------*/
@@ -315,21 +348,73 @@ COMPANY.HTML
 	margin-right: auto;
 }
 
-#about {
+#about p {
 	margin-top: 20px;
-	text-align: justify;	
+	font-size: 14px;
+	text-align:left;	
+	
+}
+
+#companySection{
+	padding-top: 30px;
 }
 
 .desc {
 	color:#2891B5;
 }
 
+#title{
+	color: #1F2193;
+}
+
+#aboutCompany jumbotron{
+	padding: 15px;
+}
+
+/*#aboutFirst{
+	margin-left: 10px;
+	padding-left: 10px;
+}*/
+
+#aboutSecond{
+	text-align: left;
+	}
 /*------------------------------------------------------------
 SERVICE.HTML
 --------------------------------------------------------------*/
 .serviceimg {
 	margin: 5px;
-	padding: 5px;
+	padding-top: 20px;	
+	position: relative;
+	margin-top: 20px;
+}
+
+#servicesSection {
+	margin-top: 25px;
 	
-	
+}
+
+.serviceRow {
+	text-align: center;
+}
+
+.serviceRow p{
+	text-align:left;
+}
+
+.serviceRow ul{
+	text-align: left;
+}
+
+/*.serviceRow{
+	border:dotted;
+	border-width: thin;
+	border-width: 1px;
+	border-color: #5FBEDB;
+}
+*/
+#partition {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
 }
